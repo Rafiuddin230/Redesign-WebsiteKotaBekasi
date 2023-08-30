@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
+.card {
+  border: 1px solid #d1d1d1;
+}
+
+* {
+  list-style: none !important;
+  text-decoration: none !important;
+  transition: 0.3s ease-in-out;
+}
+
+body {
+  font-family: "Poppins", serif;
+}
+
+.navbar-brand {
+  color: #009b4c;
+  font-family: Jockey One;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+.navbar-brand span {
+  color: #00a2e9;
+}
+
+.carousel {
+  margin-top: 70px;
+}
+@media (max-width: 767.98px) {
+  .carousel {
+    margin-top: 60px;
+  }
+}
+
+.fitur {
+  margin-top: 50px;
+}
+.fitur .fitur-1 .card-circle {
+  border-radius: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background: #fff;
+  width: 107px;
+  height: 100px;
+  flex-shrink: 0;
+}
+.fitur .fitur-1 .card-circle img {
+  width: 40px;
+  height: 40px;
+}
+.fitur .fitur-1 p {
+  color: #242424;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.fitur-mobile .fitur-1 .card {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background: #fff;
+}
+.fitur-mobile .fitur-1 p {
+  color: #242424;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.news h1 {
+  color: #292929;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+}
+.news .news-content .card .card-title {
+  color: #2d2d2d;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.news .news-content .card .card-text {
+  color: #575757;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.news .news-content .card h4 {
+  margin-top: 20px;
+  color: #009b4c;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.news .additional-content .title-news-samping {
+  margin-left: 16px;
+}
+.news .additional-content .title-news-samping h1 {
+  color: #2d2d2d;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.news .additional-content .title-news-samping p {
+  color: #575757;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.news .additional-content .garis {
+  width: 405px;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.25);
+  margin-top: 20px;
+}
+.news .additional-content .btn-berita {
+  margin-left: 100px;
+  display: flex;
+  width: 191px;
+  padding: 18px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #009b4c;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.profile h1 {
+  color: #292929;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.profile .profile-walikota p {
+  color: #373737;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.profile .bio-walikota h2 {
+  color: #363636;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.profile .bio-walikota p {
+  color: #4a4a4a;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.profile .bio-walikota h3 {
+  color: #009b4c;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.profile .card .profile-twitter img {
+  width: 53px;
+  height: 53px;
+  flex-shrink: 0;
+}
+.profile .card .profile-twitter .name-twitter h5 {
+  color: #292929;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.profile .card .profile-twitter .name-twitter p {
+  color: #5f5f5f;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer {
+  margin-top: 100px;
+  background: #2c2c2c;
+}
+.footer .logo-footer img {
+  width: 176px;
+  height: 176px;
+  flex-shrink: 0;
+}
+.footer .logo-footer h1 {
+  color: #009b4c;
+  font-family: Jockey One;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer .logo-footer h1 span {
+  color: #00a2e9;
+  font-family: Jockey One;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer h2 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.footer p {
+  color: #efeeee;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer .garis-footer {
+  margin-top: 40px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.25);
+}
+.footer h3 {
+  margin-top: 20px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
